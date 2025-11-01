@@ -97,3 +97,61 @@
 
 # for item in range (9) :
 #     print (item + 1)
+
+# # list s in python
+# items = ["Pradumn", "Rathour", "Tony", "Stark", "45", "18"]
+# print(items[5])
+
+# # list s in python
+# items = ["Pradumn", "Rathour", "Tony", "Stark", "45", "18"]
+# print(items[3:6])
+
+# list s in python
+# items = ["Pradumn", "Rathour", "Tony", "Stark", "45", 18]
+# items.insert(2, "Banner") # to insert item at specific index (2 here)
+# items.append("Ironman") # tp add item at the end of list
+# items.remove("45")     # to remove item from list
+
+# for i in items :
+#     print(i)
+# print(18 in items)  # to check if item is present in list or not (returns boolean)
+# print(len(items))   # to get length of list
+# items.clear()    # to clear the list
+# print(items)
+
+# names = ["Pradumn", "Rathour", "Tony", "Stark", "45", 18]
+# for name in names :
+#     if name == "Tony" :
+#         break
+#     print(name)
+
+# names = ["Pradumn", "Rathour", "Tony", "Stark", "45", 18]
+# for name in names :
+#     if name == "Tony" :
+#         continue
+#     print(name)
+
+
+# num = (1, 2, 3, 4, 5, 6, 7, 8, 9, 2, 2, 2) # prantheseis() are not compulsory to define tuple
+# print(num.count(2))  # to count occurence of an item in tuple
+# print(num.index(2))  # to get index of an item in tuple 
+# print(len(num))      # to get length of tuple
+
+# set = {1, 2, 3, 4, 5, 6, 7, 8, 9, 2, 2, 2} # indexing and slicing not supported in set
+# print(set)
+# for i in set :
+#     print(i)
+
+# dictionary = { "maths": 90, "science": 80, "english": 85 } # dictionary ( stores data in key value pair )
+# print(dictionary["maths"])
+# # to add item in dictionary
+# dictionary["history"] = 75 
+# print(dictionary) 
+
+# import math
+# print(dir(math))  # to see all functions and variables in math module
+# print(help(math.sqrt))  # to see how a particular function works in module  
+
+# # to import specific function from module
+# from math import sqrt
+# print(sqrt(49))
